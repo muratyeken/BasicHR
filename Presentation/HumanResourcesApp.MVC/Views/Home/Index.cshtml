@@ -10,7 +10,7 @@
         <h1>Profile</h1>
         <nav>
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
                 <li class="breadcrumb-item">Users</li>
                 <li class="breadcrumb-item active">Profile</li>
             </ol>
@@ -48,7 +48,7 @@
 
                             <div class="tab-pane fade show active profile-overview" id="profile-overview">
                                
-                                <h5 class="card-title">Profile Details</h5>
+                                <h5 class="card-title">Profile Overwiew </h5>
                                 
                                 <div class="row">
                                     <div class="col-lg-3 col-md-4 label ">Full Name</div>
@@ -81,7 +81,7 @@
                                     <div class="col-lg-9 col-md-8">@Model.Email</div>
                                 </div>
                             
-                                <a class="btn btn-success" asp-action="UpdateManager" asp-controller="Home" asp-route-id="@Model.Id">Edit</a>
+                                <a class="btn btn-primary" asp-action="UpdateManager" asp-controller="Home" asp-route-id="@Model.Id">Edit</a>
                                 
                                 <a class="btn btn-success" asp-action="Details" asp-controller="Home" asp-route-id="@Model.Id">Details</a>
                                                       
